@@ -3,9 +3,10 @@ import './ContentArea.css';
 
 const ContentArea = () => {
   return (
-    <footer className="content">
-      <h1>content area</h1>
-    </footer>
+    <div className="content-area">
+      <h1>Welcome to the Content Area</h1>
+      <p>This is where the main content will go.</p>
+    </div>
   );
 }
 export default ContentArea;
