@@ -1,9 +1,17 @@
-function NavBar() {
+import React from 'react';
+import './NavBar.css';
+import { AppBar } from '@mui/material';
+
+const NavBar = () => {
   return (
-    <div className="NavBar">
-      <h2>This is the nav bar</h2>
-    </div>
+    <AppBar className="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>    
+        </ul>
+    </AppBar>
   );
 }
-
 export default NavBar;
