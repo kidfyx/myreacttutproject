@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <div className="NavBar">
-      <h2>This is the Header</h2>
+      <h2>This is the nav bar</h2>
     </div>
   );
 }
