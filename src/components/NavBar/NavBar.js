@@ -4,8 +4,8 @@ import { AppBar, Toolbar, Button } from '@mui/material';
 
 const NavBar = () => {
   return (
-    <AppBar position="static">
-      <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
+    <AppBar className="navbar"> 
+      <Toolbar>
         <div className="nav-links">
           <Button color="inherit" href="/">Home</Button>
           <Button color="inherit" href="/about">About</Button>
